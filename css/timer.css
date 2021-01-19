@@ -1,0 +1,150 @@
+.container_full{
+    margin-left: -15px;
+}
+
+
+@media (min-width: 993px) {
+    .timer-block__wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .timer-block__wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        padding: 0;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .timer-block__column {
+        width: 100%;
+    }
+}
+
+.countdown-block__layer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+}
+
+@media (max-width: 992px) {
+    .countdown-block__layer {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.countdown-block__header {
+    position: relative;
+    padding-left: 28px;
+    padding-right: 12px;
+    color: #00d1ff;
+    font-family: RubikMedium;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    max-width: 150px;
+    min-width: 120px;
+}
+
+@media (max-width: 992px) {
+    .countdown-block__header {
+        font-size: 40px;
+        width: 72px;
+        min-width: 72px;
+        padding-left: 16px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .countdown-block__block:first-child .countdown-block__header {
+        padding-left: 0;
+        min-width: 58px;
+    }
+}
+
+.countdown-block__footer {
+    color: #00d1ff;
+    font-size: 13px;
+    font-family: RubikMedium;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    padding-left: 28px;
+    padding-right: 12px;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+    .countdown-block__footer {
+        font-size: 12px;
+        padding-left: 16px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .countdown-block__block:first-child .countdown-block__footer {
+        padding-left: 0;
+    }
+}
+
+.countdown-block__block+.countdown-block__block .countdown-block__header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -5px;
+    width: 12px;
+    height: 12px;
+    margin: 30px 0;
+    border-radius: 50%;
+    background: #00d1ff;
+}
+
+@media (max-width: 992px) {
+    .countdown-block__block+.countdown-block__block .countdown-block__header::before {
+        width: 8px;
+        height: 8px;
+        margin: 15px 7px;
+        top: 0;
+        left: -3px;
+    }
+}

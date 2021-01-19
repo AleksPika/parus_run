@@ -1,0 +1,32 @@
+.participants {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    padding-top: 110px;
+}
+.title-reg {
+    text-align: center;
+    font-size: 45px;
+}
+
+.question-2 {
+    font-family: Merriweather;
+    text-align: center;
+    color: #dd710c;
+    font-size: 22px;
+}
+th{
+    width: 20%;
+    text-align: center;
+}
+td {
+    width: 20%;
+    max-width: 35px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    table {
+        font-size: 10px;
+    }
+}

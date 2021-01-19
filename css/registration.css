@@ -1,0 +1,67 @@
+.registration {
+    width: 100%;
+    max-height: 1000px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: url(../img/run-2.jpg) no-repeat center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .8);
+    background-blend-mode: darken;
+}
+
+.registration__title {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+    padding: 58px 0 58px 0;
+    color: #e3a062;
+}
+.block-reg{
+    padding: 10px;
+}
+.title-reg {
+    text-align: center;
+    font-size: 45px;
+    font-family: Merriweather;
+    color: #dd710c;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-reg {
+    background-color: #dd710c;
+    border: none;
+}
+
+.btn-reg:hover {
+    background-color: #9c4c01;
+}
+label{
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .registration {
+        padding-top: 50px;
+    }
+    .registration__title {
+        padding: 54px 10px 44px 10px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .row-reg-input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    h1.title-reg {
+        font-size: 26px;
+    }
+}
+
